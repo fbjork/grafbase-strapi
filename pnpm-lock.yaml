@@ -1,0 +1,30 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  '@grafbase/sdk':
+    specifier: ~0.0.25
+    version: 0.0.25
+
+packages:
+
+  /@grafbase/sdk@0.0.25:
+    resolution: {integrity: sha512-VF5jSVRdv574g9D51pOwSTEDGCfY8XNdLvSdr6b4DH4LyyO147AXKDY9mO1OI5RXT7JJHSTNEzQhpBCWas543w==}
+    engines: {node: '>=16.13.0'}
+    dependencies:
+      dotenv: 16.3.1
+      type-fest: 3.12.0
+    dev: true
+
+  /dotenv@16.3.1:
+    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
+    engines: {node: '>=12'}
+    dev: true
+
+  /type-fest@3.12.0:
+    resolution: {integrity: sha512-qj9wWsnFvVEMUDbESiilKeXeHL7FwwiFcogfhfyjmvT968RXSvnl23f1JOClTHYItsi7o501C/7qVllscUP3oA==}
+    engines: {node: '>=14.16'}
+    dev: true
